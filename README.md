@@ -7,4 +7,4 @@ You need xorg, grep and awk.
 
 Insert `/path/to/script` in your .bashrc/.zshrc before running anythin X related.
 
-And add `username ALL=(root) NOPASSWD: /path/to/script` in `visudo` towards the bottom of priviliges. If you haven't touched it, put it under `root ALL=(ALL) ALL`
+And add `username ALL=(root) NOPASSWD: /path/to/script` in `visudo` towards the bottom of your priviliges. If you haven't touched it, put it under `root ALL=(ALL) ALL`
