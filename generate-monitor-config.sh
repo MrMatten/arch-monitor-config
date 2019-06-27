@@ -1,6 +1,6 @@
 # Variables
 screensConnected=()
-configPath=/etc/X11/xorg.conf.d/10-monitor.conf
+configPath=/etc/X11/xinit/xinitrc.d/10-monitor.conf
 
 # Force sudo on all commands
 if [ "#(id -u)" != "0"]; then
