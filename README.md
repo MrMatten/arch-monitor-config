@@ -1,9 +1,12 @@
 # arch-monitor-config
-Bash Script for automatically creating a Monitor config file on load in X on Arch Linux.
+Bash Script for automatically creating a Monitor config file in X on Arch Linux.
 
 It will put screens randomly to the right of your primary display. 
 
-You need xorg, xinit, grep and awk.
+You need `xorg`, `xinit`, `grep` and `awk`.
+
+
+*If you want it to do it automatically on load:*
 
 Insert `/path/to/script` in your .bashrc/.zshrc before running anythin X related.
 
